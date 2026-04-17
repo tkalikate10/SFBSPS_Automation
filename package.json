@@ -1,0 +1,12 @@
+{
+  "name": "bsps-currency-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BSPS OANDA currency rate automation",
+  "scripts": {
+    "update:oanda": "node ./scripts/update-oanda-rates.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
