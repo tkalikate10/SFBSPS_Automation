@@ -1,8 +1,8 @@
 param(
     [string]$TaskName = "Daily OANDA Currency Refresh",
     [string]$StartTime = "08:00",
-    [string]$ProjectPath = "C:\log-analysis-agent",
-    [string]$RunnerPath = "C:\log-analysis-agent\scripts\run-oanda-update.ps1",
+    [string]$ProjectPath = "C:\BSPS",
+    [string]$RunnerPath = "C:\BSPS\scripts\run-oanda-update.ps1",
     [ValidateSet("Limited", "Highest")]
     [string]$RunLevel = "Limited"
 )

@@ -94,9 +94,13 @@ async function dismissCookieBanner(page) {
   }
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function scrapeCurrency(page, baseCurrency, timeoutMs) {
-  // Now baseCurrency is the non-USD currency, quote is always USD
-  const url = `https://www.oanda.com/currency-converter/en/?from=${baseCurrency}&to=USD&amount=1`;
+  // USD is the base, baseCurrency is the target — gives how much 1 USD buys
+  const url = `https://www.oanda.com/currency-converter/en/?from=USD&to=${baseCurrency}&amount=1`;
   let lastError;
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     try {
@@ -106,7 +110,7 @@ async function scrapeCurrency(page, baseCurrency, timeoutMs) {
       return { rate };
     } catch (error) {
       lastError = error;
-      await page.waitForTimeout(1500 * attempt);
+      await sleep(1500 * attempt);
     }
   }
 
@@ -120,7 +124,32 @@ async function writeCsv(outputPath, header, rows) {
   }
 
   await fs.mkdir(path.dirname(outputPath), { recursive: true });
-  await fs.writeFile(outputPath, `${lines.join('\n')}\n`, 'utf8');
+
+  // Write to a temp file first, then rename over the original.
+  // This avoids EBUSY errors when the CSV is open in Excel.
+  const tmpPath = `${outputPath}.tmp`;
+  await fs.writeFile(tmpPath, `${lines.join('\n')}\n`, 'utf8');
+
+  // Retry the rename up to 5 times (5 s total) in case Excel briefly holds the lock.
+  const maxAttempts = 5;
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      await fs.rename(tmpPath, outputPath);
+      return;
+    } catch (err) {
+      if (err.code !== 'EBUSY' || attempt === maxAttempts) {
+        // Clean up temp file before re-throwing
+        await fs.unlink(tmpPath).catch(() => {});
+        throw new Error(
+          `Cannot save the CSV — the file is open in another program (e.g. Excel).\n` +
+          `Please close it and run the script again.\n` +
+          `Updated data is temporarily saved at: ${tmpPath}`
+        );
+      }
+      console.warn(`File is locked, retrying in 1 s (attempt ${attempt}/${maxAttempts})...`);
+      await sleep(1000);
+    }
+  }
 }
 
 async function main() {
@@ -148,7 +177,7 @@ async function main() {
       const result = await scrapeCurrency(page, isoCode, args.timeoutMs);
       row.ConversionRate = result.rate;
       row.StartDate = today;
-      console.log(`${isoCode}→USD: ${result.rate}`);
+      console.log(`USD→${isoCode}: ${result.rate}`);
     }
   } finally {
     await browser.close();

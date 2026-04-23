@@ -1,6 +1,6 @@
 param(
-    [string]$ProjectPath = "C:\log-analysis-agent",
-    [string]$LogDirectory = "C:\log-analysis-agent\logs"
+    [string]$ProjectPath = "C:\BSPS",
+    [string]$LogDirectory = "C:\BSPS\logs"
 )
 
 $ErrorActionPreference = "Stop"

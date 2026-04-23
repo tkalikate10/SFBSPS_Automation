@@ -1,0 +1,221 @@
+[2026-04-23 14:03:25] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 14:03:25] CRITICAL ERROR: Connection Failed: name 'USERNAME' is not defined
+[2026-04-23 14:04:05] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 14:04:05] CRITICAL ERROR: Connection Failed: name 'USERNAME' is not defined
+[2026-04-23 14:06:13] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 14:06:13] CRITICAL ERROR: Connection Failed: name 'USERNAME' is not defined
+[2026-04-23 14:14:27] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 14:14:28] CRITICAL ERROR: Connection Failed: Authentication failed (code: INVALID_LOGIN): Invalid username, password, security token; or user locked out.
+[2026-04-23 14:16:34] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 14:16:36] Connected to Salesforce successfully.
+[2026-04-23 14:16:36] FILE ERROR: C:\BSPS\BSPS AUtoamtion\TE access and activities - currencyUpdate - TE access and activities - currencyUpdate.xlsx not found.
+[2026-04-23 14:17:21] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 14:17:22] Connected to Salesforce successfully.
+[2026-04-23 14:17:22] FILE ERROR: Processing failed: Excel file format cannot be determined, you must specify an engine manually.
+[2026-04-23 14:17:22] --- Dual Sync Finished ---
+
+[2026-04-23 14:18:57] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 14:18:59] Connected to Salesforce successfully.
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] STEP 1 SKIP: No ID provided for IsoCode None
+[2026-04-23 14:18:59] STEP 2 ERROR: Inserting DatedRate None: 'IsoCode'
+[2026-04-23 14:18:59] --- Dual Sync Finished ---
+
+[2026-04-23 14:23:08] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 14:23:10] Connected to Salesforce successfully.
+[2026-04-23 14:23:13] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4QEAW
+[2026-04-23 14:23:14] STEP 2 SUCCESS: Inserted DatedRate AUD for 2026-04-23
+[2026-04-23 14:23:16] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4VEAW
+[2026-04-23 14:23:17] STEP 2 SUCCESS: Inserted DatedRate BND for 2026-04-23
+[2026-04-23 14:23:18] STEP 1 SUCCESS: Updated CurrencyType 01L610000008YfeEAE
+[2026-04-23 14:23:19] STEP 2 SUCCESS: Inserted DatedRate CAD for 2026-04-23
+[2026-04-23 14:23:20] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIf3EAE
+[2026-04-23 14:23:21] STEP 2 SUCCESS: Inserted DatedRate CHF for 2026-04-23
+[2026-04-23 14:23:21] STEP 1 ERROR: Updating Id 01L590000000K2VEAU: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/CurrencyType/01L590000000K2VEAU. Response content: [{'message': 'invalid record id', 'errorCode': 'INVALID_ID_FIELD', 'fields': []}]
+[2026-04-23 14:23:22] STEP 2 SUCCESS: Inserted DatedRate CLP for 2026-04-23
+[2026-04-23 14:23:23] STEP 1 SUCCESS: Updated CurrencyType 01L4N0000000KxrUAE
+[2026-04-23 14:23:23] STEP 2 SUCCESS: Inserted DatedRate CNY for 2026-04-23
+[2026-04-23 14:23:25] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfSEAU
+[2026-04-23 14:23:26] STEP 2 SUCCESS: Inserted DatedRate CZK for 2026-04-23
+[2026-04-23 14:23:27] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfIEAU
+[2026-04-23 14:23:28] STEP 2 SUCCESS: Inserted DatedRate DKK for 2026-04-23
+[2026-04-23 14:23:29] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM59EAG
+[2026-04-23 14:23:30] STEP 2 SUCCESS: Inserted DatedRate EUR for 2026-04-23
+[2026-04-23 14:23:31] STEP 1 SUCCESS: Updated CurrencyType 01L610000008YfjEAE
+[2026-04-23 14:23:31] STEP 2 SUCCESS: Inserted DatedRate GBP for 2026-04-23
+[2026-04-23 14:23:32] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4aEAG
+[2026-04-23 14:23:33] STEP 2 SUCCESS: Inserted DatedRate HKD for 2026-04-23
+[2026-04-23 14:23:34] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4fEAG
+[2026-04-23 14:23:35] STEP 2 SUCCESS: Inserted DatedRate INR for 2026-04-23
+[2026-04-23 14:23:36] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4kEAG
+[2026-04-23 14:23:37] STEP 2 SUCCESS: Inserted DatedRate LKR for 2026-04-23
+[2026-04-23 14:23:38] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4pEAG
+[2026-04-23 14:23:39] STEP 2 SUCCESS: Inserted DatedRate MOP for 2026-04-23
+[2026-04-23 14:23:40] STEP 1 SUCCESS: Updated CurrencyType 01L6T000001h2xkUAA
+[2026-04-23 14:23:42] STEP 2 SUCCESS: Inserted DatedRate MVR for 2026-04-23
+[2026-04-23 14:23:43] STEP 1 SUCCESS: Updated CurrencyType 01L3f0000008Xv5EAE
+[2026-04-23 14:23:44] STEP 2 SUCCESS: Inserted DatedRate MXN for 2026-04-23
+[2026-04-23 14:23:45] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4uEAG
+[2026-04-23 14:23:46] STEP 2 SUCCESS: Inserted DatedRate MYR for 2026-04-23
+[2026-04-23 14:23:48] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIf8EAE
+[2026-04-23 14:23:49] STEP 2 SUCCESS: Inserted DatedRate NOK for 2026-04-23
+[2026-04-23 14:23:50] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4zEAG
+[2026-04-23 14:23:51] STEP 2 SUCCESS: Inserted DatedRate PHP for 2026-04-23
+[2026-04-23 14:23:53] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfNEAU
+[2026-04-23 14:23:53] STEP 2 SUCCESS: Inserted DatedRate PLN for 2026-04-23
+[2026-04-23 14:23:54] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfDEAU
+[2026-04-23 14:23:55] STEP 2 SUCCESS: Inserted DatedRate SEK for 2026-04-23
+[2026-04-23 14:23:56] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM54EAG
+[2026-04-23 14:23:57] STEP 2 SUCCESS: Inserted DatedRate SGD for 2026-04-23
+[2026-04-23 14:23:58] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfXEAU
+[2026-04-23 14:23:59] STEP 2 SUCCESS: Inserted DatedRate TWD for 2026-04-23
+[2026-04-23 14:23:59] --- Dual Sync Finished ---
+
+[2026-04-23 16:14:02] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 16:14:04] Connected to Salesforce successfully.
+[2026-04-23 16:14:05] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4QEAW
+[2026-04-23 16:14:06] STEP 2 ERROR: Inserting DatedRate AUD: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:07] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4VEAW
+[2026-04-23 16:14:08] STEP 2 ERROR: Inserting DatedRate BND: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:09] STEP 1 SUCCESS: Updated CurrencyType 01L610000008YfeEAE
+[2026-04-23 16:14:10] STEP 2 ERROR: Inserting DatedRate CAD: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:11] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIf3EAE
+[2026-04-23 16:14:12] STEP 2 ERROR: Inserting DatedRate CHF: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:12] STEP 1 ERROR: Updating Id 01L590000000K2VEAU: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/CurrencyType/01L590000000K2VEAU. Response content: [{'message': 'invalid record id', 'errorCode': 'INVALID_ID_FIELD', 'fields': []}]
+[2026-04-23 16:14:12] STEP 2 ERROR: Inserting DatedRate CLP: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:13] STEP 1 SUCCESS: Updated CurrencyType 01L4N0000000KxrUAE
+[2026-04-23 16:14:14] STEP 2 ERROR: Inserting DatedRate CNY: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:15] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfSEAU
+[2026-04-23 16:14:16] STEP 2 ERROR: Inserting DatedRate CZK: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:16] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfIEAU
+[2026-04-23 16:14:17] STEP 2 ERROR: Inserting DatedRate DKK: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:18] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM59EAG
+[2026-04-23 16:14:19] STEP 2 ERROR: Inserting DatedRate EUR: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:20] STEP 1 SUCCESS: Updated CurrencyType 01L610000008YfjEAE
+[2026-04-23 16:14:21] STEP 2 ERROR: Inserting DatedRate GBP: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:22] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4aEAG
+[2026-04-23 16:14:23] STEP 2 ERROR: Inserting DatedRate HKD: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:24] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4fEAG
+[2026-04-23 16:14:24] STEP 2 ERROR: Inserting DatedRate INR: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:25] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4kEAG
+[2026-04-23 16:14:26] STEP 2 ERROR: Inserting DatedRate LKR: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:27] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4pEAG
+[2026-04-23 16:14:28] STEP 2 ERROR: Inserting DatedRate MOP: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:29] STEP 1 SUCCESS: Updated CurrencyType 01L6T000001h2xkUAA
+[2026-04-23 16:14:29] STEP 2 ERROR: Inserting DatedRate MVR: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:30] STEP 1 SUCCESS: Updated CurrencyType 01L3f0000008Xv5EAE
+[2026-04-23 16:14:31] STEP 2 ERROR: Inserting DatedRate MXN: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:32] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4uEAG
+[2026-04-23 16:14:33] STEP 2 ERROR: Inserting DatedRate MYR: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:34] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIf8EAE
+[2026-04-23 16:14:34] STEP 2 ERROR: Inserting DatedRate NOK: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:35] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4zEAG
+[2026-04-23 16:14:36] STEP 2 ERROR: Inserting DatedRate PHP: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:37] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfNEAU
+[2026-04-23 16:14:37] STEP 2 ERROR: Inserting DatedRate PLN: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:38] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfDEAU
+[2026-04-23 16:14:39] STEP 2 ERROR: Inserting DatedRate SEK: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:40] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM54EAG
+[2026-04-23 16:14:41] STEP 2 ERROR: Inserting DatedRate SGD: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:42] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfXEAU
+[2026-04-23 16:14:43] STEP 2 ERROR: Inserting DatedRate TWD: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/DatedConversionRate/. Response content: [{'message': 'duplicate value found: <unknown> duplicates value on record with id: <unknown>', 'errorCode': 'DUPLICATE_VALUE', 'fields': []}]
+[2026-04-23 16:14:43] --- Dual Sync Finished ---
+
+[2026-04-23 16:29:22] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 16:29:24] Connected to Salesforce successfully.
+[2026-04-23 16:29:25] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4QEAW
+[2026-04-23 16:29:26] STEP 2 SUCCESS: Inserted DatedRate AUD for 2026-04-23
+[2026-04-23 16:29:27] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4VEAW
+[2026-04-23 16:29:28] STEP 2 SUCCESS: Inserted DatedRate BND for 2026-04-23
+[2026-04-23 16:29:29] STEP 1 SUCCESS: Updated CurrencyType 01L610000008YfeEAE
+[2026-04-23 16:29:30] STEP 2 SUCCESS: Inserted DatedRate CAD for 2026-04-23
+[2026-04-23 16:29:31] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIf3EAE
+[2026-04-23 16:29:32] STEP 2 SUCCESS: Inserted DatedRate CHF for 2026-04-23
+[2026-04-23 16:29:32] STEP 1 ERROR: Updating Id 01L590000000K2VEAU: Malformed request https://globalpay--migratesm.sandbox.my.salesforce.com/services/data/v59.0/sobjects/CurrencyType/01L590000000K2VEAU. Response content: [{'message': 'invalid record id', 'errorCode': 'INVALID_ID_FIELD', 'fields': []}]
+[2026-04-23 16:29:33] STEP 2 SUCCESS: Inserted DatedRate CLP for 2026-04-23
+[2026-04-23 16:29:34] STEP 1 SUCCESS: Updated CurrencyType 01L4N0000000KxrUAE
+[2026-04-23 16:29:35] STEP 2 SUCCESS: Inserted DatedRate CNY for 2026-04-23
+[2026-04-23 16:29:36] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfSEAU
+[2026-04-23 16:29:37] STEP 2 SUCCESS: Inserted DatedRate CZK for 2026-04-23
+[2026-04-23 16:29:38] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfIEAU
+[2026-04-23 16:29:39] STEP 2 SUCCESS: Inserted DatedRate DKK for 2026-04-23
+[2026-04-23 16:29:40] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM59EAG
+[2026-04-23 16:29:41] STEP 2 SUCCESS: Inserted DatedRate EUR for 2026-04-23
+[2026-04-23 16:29:42] STEP 1 SUCCESS: Updated CurrencyType 01L610000008YfjEAE
+[2026-04-23 16:29:43] STEP 2 SUCCESS: Inserted DatedRate GBP for 2026-04-23
+[2026-04-23 16:29:43] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4aEAG
+[2026-04-23 16:29:44] STEP 2 SUCCESS: Inserted DatedRate HKD for 2026-04-23
+[2026-04-23 16:29:45] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4fEAG
+[2026-04-23 16:29:46] STEP 2 SUCCESS: Inserted DatedRate INR for 2026-04-23
+[2026-04-23 16:29:47] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4kEAG
+[2026-04-23 16:29:48] STEP 2 SUCCESS: Inserted DatedRate LKR for 2026-04-23
+[2026-04-23 16:29:48] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4pEAG
+[2026-04-23 16:29:50] STEP 2 SUCCESS: Inserted DatedRate MOP for 2026-04-23
+[2026-04-23 16:29:51] STEP 1 SUCCESS: Updated CurrencyType 01L6T000001h2xkUAA
+[2026-04-23 16:29:51] STEP 2 SUCCESS: Inserted DatedRate MVR for 2026-04-23
+[2026-04-23 16:29:52] STEP 1 SUCCESS: Updated CurrencyType 01L3f0000008Xv5EAE
+[2026-04-23 16:29:53] STEP 2 SUCCESS: Inserted DatedRate MXN for 2026-04-23
+[2026-04-23 16:29:54] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4uEAG
+[2026-04-23 16:29:55] STEP 2 SUCCESS: Inserted DatedRate MYR for 2026-04-23
+[2026-04-23 16:29:56] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIf8EAE
+[2026-04-23 16:29:58] STEP 2 SUCCESS: Inserted DatedRate NOK for 2026-04-23
+[2026-04-23 16:29:58] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM4zEAG
+[2026-04-23 16:29:59] STEP 2 SUCCESS: Inserted DatedRate PHP for 2026-04-23
+[2026-04-23 16:30:01] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfNEAU
+[2026-04-23 16:30:01] STEP 2 SUCCESS: Inserted DatedRate PLN for 2026-04-23
+[2026-04-23 16:30:02] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfDEAU
+[2026-04-23 16:30:03] STEP 2 SUCCESS: Inserted DatedRate SEK for 2026-04-23
+[2026-04-23 16:30:04] STEP 1 SUCCESS: Updated CurrencyType 01L61000000IM54EAG
+[2026-04-23 16:30:06] STEP 2 SUCCESS: Inserted DatedRate SGD for 2026-04-23
+[2026-04-23 16:30:07] STEP 1 SUCCESS: Updated CurrencyType 01L61000000kIfXEAU
+[2026-04-23 16:30:08] STEP 2 SUCCESS: Inserted DatedRate TWD for 2026-04-23
+[2026-04-23 16:30:08] --- Dual Sync Finished ---
+
+[2026-04-23 16:50:41] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 16:50:43] Connected to Salesforce successfully.
+[2026-04-23 16:55:32] --- Starting Dual Sync (Update & Insert) ---
+[2026-04-23 16:55:45] Connected to Salesforce successfully.
+[2026-04-23 17:01:42] User cancelled the sync.
