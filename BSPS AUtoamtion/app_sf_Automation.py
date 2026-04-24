@@ -5,9 +5,9 @@ import os
 from datetime import datetime
 
 # --- 1. CREDENTIALS ---
-USERNAME = XXXXXXXX
-PASSWORD = XXXXXXXXXXX
-TOKEN = XXXXXXXXXXX
+USERNAME = xxxxxxxxxxxxxxxxxx
+PASSWORD = xxxxxxxxxxxxxxxxxx
+TOKEN = xxxxxxxxxxxxxxxxxxxxx
 
 # --- 2. FILE PATHS ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
