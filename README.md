@@ -157,3 +157,29 @@ A new machine only needs:
 - `npx playwright install chromium`
 
 After that, they can run the automation from PowerShell or let Task Scheduler run it daily.
+
+Summary in short : 
+
+Git clone https://github.com/tkalikate10/SFBSPS_Automation  (Create folder first and then use Git bash) (Required Git setup and Gitbash installed)
+Once done we need to open that folder and again type 'cmd' in global search to open COmmand prompt
+Make sure we have node.js installed in our system
+in same cmd use below commands to verify versions
+node -v
+npm -v
+npm install --registry=https://registry.npmjs.org/
+npx playwright install chromium
+5.To check if rates are updating correctly then check with following command : node .\scripts\update-oanda-rates.js (use powershell which open in same folder)
+6.To set Task schedule us following in same powershell  : powershell -NoProfile -ExecutionPolicy Bypass -File "C:\BSPS\scripts\register-oanda-task.ps1" -StartTime "11:57"
+7.We have python and their respective task added to run using power shell
+8.Makeshure we have installed following using cmd : (search in c drive)
+	pip install simple-salesforce
+        pip install pandas
+        pip install pywin32 openpyxl
+9.Once done we can run following commmand in poershell : powershell -NoProfile -ExecutionPolicy Bypass -File "C:\BSPS\BSPS AUtoamtion\register-task.ps1" -StartTime "14:59"
+
+10 . Make sure before we run above cmd we have file updated in same folder for respective currency rate first then only we can proceed with this python script
+
+Reference gibash commands : git pull origin main --rebase
+
+git push origin main
+
