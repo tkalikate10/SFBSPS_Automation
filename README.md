@@ -28,7 +28,7 @@
 
 # &#x20; - `ISOCODE`
 
-# &#x20; - `source\_url`
+# &#x20; - `source\\\_url`
 
 # 
 
@@ -58,11 +58,11 @@
 
 # 
 
-# \- `node\_modules/`
+# \- `node\\\_modules/`
 
 # \- `logs/`
 
-# \- `BSPS AUtoamtion/\*.csv`
+# \- `BSPS AUtoamtion/\\\*.csv`
 
 # 
 
@@ -318,7 +318,7 @@
 
 # 
 
-# Summary in short : 
+# Summary in short :
 
 # 
 
@@ -368,7 +368,7 @@
 
 # &#x20;       pip install pywin32 openpyxl
 
-# &#x09;	
+# &#x09;
 
 # 9)Once done we can run following commmand in poershell : powershell -NoProfile -ExecutionPolicy Bypass -File "C:\\BSPS\\BSPS AUtoamtion\\register-task.ps1" -StartTime "14:59"
 
@@ -385,6 +385,70 @@
 # git push origin main
 
 # 
+
+
+
+### **Steps to set Task manually (No Admin creds require) :** 
+
+### 1)Search 'Task Scheduler'
+
+### 2)In 'General' tab Name the task for exampl Name: 'Oanda\_Rate\_Update'
+
+### 3)Make sure radio button in Security option section is selected with 'Run only when user is logged on' , Keep rest option as it is 
+
+### 4)In triggers section - 
+
+### There are 2 triggers we need to set - 
+
+### &#x20;1)At log on 
+
+### &#x20; i. Begin ther task 'At log on'
+
+### &#x20; ii.Specific user - this is bydefault selected
+
+### &#x20; iii. By default there is checkbox already enabled named as 'Enabled'
+
+### &#x20;2)On Workstation unlock
+
+### &#x20; i. Begin ther task 'On Workstation unlock'
+
+### &#x20; ii.Specific user - this is bydefault selected
+
+### &#x20; iii. By default there is checkbox already enabled named as 'Enabled'
+
+### Click OK to save
+
+### 
+
+### 5)In 'Action'
+
+### &#x20;i)Action : Start a program
+
+### Program script : 
+
+### C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe   
+
+### 
+
+### &#x20;ii)Add Argument : -ExecutionPolicy Bypass -Command "\& 'C:\\BSPS\\scripts\\run-oanda-update.ps1'; \& 'python' 'C:\\BSPS\\BSPS AUtoamtion\\app\_sf\_Automation.py'"
+
+### 
+
+### &#x20;iii)Starts in : C:\\BSPS\\scripts
+
+### &#x20;
+
+### 6)In condition and all rest tab no changes require
+
+### 
+
+### 7)CLick ok and apply to save this task 
+
+### 
+
+### So when user unlock or login into laptop then this task will trigger everytime and update rates into sheet
+
+### along with option Salesforce Dated Exchange Rate run
 
 # 
 

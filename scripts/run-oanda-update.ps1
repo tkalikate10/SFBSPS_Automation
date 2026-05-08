@@ -20,6 +20,9 @@ Push-Location $ProjectPath
 try {
     "[$(Get-Date -Format o)] Starting OANDA rate update" | Out-File -FilePath $logFile -Encoding utf8
 
+    # Display the status message to the console
+    Write-Host "`nPlease wait ...Updating local Currency file :TE access and activities - currencyUpdate" -ForegroundColor Cyan
+
     $command = "node .\scripts\update-oanda-rates.js"
     cmd.exe /c "$command >> `"$logFile`" 2>&1"
     $exitCode = $LASTEXITCODE
