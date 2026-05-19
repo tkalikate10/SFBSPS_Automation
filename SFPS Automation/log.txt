@@ -1640,3 +1640,374 @@
 
 [2026-05-08 15:52:20] --- Starting Salesforce Composite Sync (API v64.0) ---
 [2026-05-08 15:52:22] Connected to Salesforce successfully via OAuth.
+[2026-05-08 21:31:30] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-08 21:31:33] Connected to Salesforce successfully via OAuth.
+[2026-05-08 23:44:17] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-08 23:44:18] Connected to Salesforce successfully via OAuth.
+[2026-05-09 14:59:36] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-09 14:59:38] Connected to Salesforce successfully via OAuth.
+[2026-05-09 14:59:39] No records found for 2026-05-09. Proceeding automatically...
+[2026-05-09 14:59:39] Sending 23 updates via Composite API...
+[2026-05-09 14:59:43] SUCCESS: All CurrencyType updates completed in one transaction.
+[2026-05-09 14:59:43] Sending 23 DatedConversionRate inserts...
+[2026-05-09 14:59:59] SUCCESS: Inserted AUD
+[2026-05-09 14:59:59] SUCCESS: Inserted BND
+[2026-05-09 14:59:59] SUCCESS: Inserted CAD
+[2026-05-09 14:59:59] SUCCESS: Inserted CHF
+[2026-05-09 14:59:59] SUCCESS: Inserted CLP
+[2026-05-09 14:59:59] SUCCESS: Inserted CNY
+[2026-05-09 14:59:59] SUCCESS: Inserted CZK
+[2026-05-09 14:59:59] SUCCESS: Inserted DKK
+[2026-05-09 14:59:59] SUCCESS: Inserted EUR
+[2026-05-09 14:59:59] SUCCESS: Inserted GBP
+[2026-05-09 14:59:59] SUCCESS: Inserted HKD
+[2026-05-09 14:59:59] SUCCESS: Inserted INR
+[2026-05-09 14:59:59] SUCCESS: Inserted LKR
+[2026-05-09 14:59:59] SUCCESS: Inserted MOP
+[2026-05-09 14:59:59] SUCCESS: Inserted MVR
+[2026-05-09 14:59:59] SUCCESS: Inserted MXN
+[2026-05-09 14:59:59] SUCCESS: Inserted MYR
+[2026-05-09 14:59:59] SUCCESS: Inserted NOK
+[2026-05-09 14:59:59] SUCCESS: Inserted PHP
+[2026-05-09 14:59:59] SUCCESS: Inserted PLN
+[2026-05-09 14:59:59] SUCCESS: Inserted SEK
+[2026-05-09 14:59:59] SUCCESS: Inserted SGD
+[2026-05-09 14:59:59] SUCCESS: Inserted TWD
+[2026-05-09 14:59:59] --- Sync Finished ---
+
+[2026-05-09 15:07:17] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-09 15:07:18] Connected to Salesforce successfully via OAuth.
+[2026-05-09 15:07:24] User chose to overwrite. Deleting 23 existing DatedConversionRate records for today...
+[2026-05-09 15:07:40] Existing records deleted successfully. Proceeding with fresh sync...
+[2026-05-09 15:07:40] Sending 23 updates via Composite API...
+[2026-05-09 15:07:41] SUCCESS: All CurrencyType updates completed in one transaction.
+[2026-05-09 15:07:41] Sending 23 DatedConversionRate inserts...
+[2026-05-09 15:08:00] SUCCESS: Inserted AUD
+[2026-05-09 15:08:00] SUCCESS: Inserted BND
+[2026-05-09 15:08:00] SUCCESS: Inserted CAD
+[2026-05-09 15:08:00] SUCCESS: Inserted CHF
+[2026-05-09 15:08:00] SUCCESS: Inserted CLP
+[2026-05-09 15:08:00] SUCCESS: Inserted CNY
+[2026-05-09 15:08:00] SUCCESS: Inserted CZK
+[2026-05-09 15:08:00] SUCCESS: Inserted DKK
+[2026-05-09 15:08:00] SUCCESS: Inserted EUR
+[2026-05-09 15:08:00] SUCCESS: Inserted GBP
+[2026-05-09 15:08:00] SUCCESS: Inserted HKD
+[2026-05-09 15:08:00] SUCCESS: Inserted INR
+[2026-05-09 15:08:00] SUCCESS: Inserted LKR
+[2026-05-09 15:08:00] SUCCESS: Inserted MOP
+[2026-05-09 15:08:00] SUCCESS: Inserted MVR
+[2026-05-09 15:08:00] SUCCESS: Inserted MXN
+[2026-05-09 15:08:00] SUCCESS: Inserted MYR
+[2026-05-09 15:08:00] SUCCESS: Inserted NOK
+[2026-05-09 15:08:00] SUCCESS: Inserted PHP
+[2026-05-09 15:08:00] SUCCESS: Inserted PLN
+[2026-05-09 15:08:00] SUCCESS: Inserted SEK
+[2026-05-09 15:08:00] SUCCESS: Inserted SGD
+[2026-05-09 15:08:00] SUCCESS: Inserted TWD
+[2026-05-09 15:08:00] --- Sync Finished ---
+
+[2026-05-09 15:15:15] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-09 15:15:17] Connected to Salesforce successfully via OAuth.
+[2026-05-09 15:15:42] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 03:08 PM IST).
+[2026-05-09 21:04:07] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-09 21:04:11] Connected to Salesforce successfully via OAuth.
+[2026-05-10 19:05:59] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-10 19:06:01] Connected to Salesforce successfully via OAuth.
+[2026-05-10 19:06:02] No records found for 2026-05-10. Proceeding automatically...
+[2026-05-10 19:06:02] Sending 23 updates via Composite API...
+[2026-05-10 19:06:06] SUCCESS: All CurrencyType updates completed.
+[2026-05-10 19:06:06] Sending 23 DatedConversionRate inserts...
+[2026-05-10 19:06:28] SUCCESS: Inserted AUD
+[2026-05-10 19:06:28] SUCCESS: Inserted BND
+[2026-05-10 19:06:28] SUCCESS: Inserted CAD
+[2026-05-10 19:06:28] SUCCESS: Inserted CHF
+[2026-05-10 19:06:28] SUCCESS: Inserted CLP
+[2026-05-10 19:06:28] SUCCESS: Inserted CNY
+[2026-05-10 19:06:28] SUCCESS: Inserted CZK
+[2026-05-10 19:06:28] SUCCESS: Inserted DKK
+[2026-05-10 19:06:28] SUCCESS: Inserted EUR
+[2026-05-10 19:06:28] SUCCESS: Inserted GBP
+[2026-05-10 19:06:28] SUCCESS: Inserted HKD
+[2026-05-10 19:06:28] SUCCESS: Inserted INR
+[2026-05-10 19:06:28] SUCCESS: Inserted LKR
+[2026-05-10 19:06:28] SUCCESS: Inserted MOP
+[2026-05-10 19:06:28] SUCCESS: Inserted MVR
+[2026-05-10 19:06:28] SUCCESS: Inserted MXN
+[2026-05-10 19:06:28] SUCCESS: Inserted MYR
+[2026-05-10 19:06:28] SUCCESS: Inserted NOK
+[2026-05-10 19:06:28] SUCCESS: Inserted PHP
+[2026-05-10 19:06:28] SUCCESS: Inserted PLN
+[2026-05-10 19:06:28] SUCCESS: Inserted SEK
+[2026-05-10 19:06:28] SUCCESS: Inserted SGD
+[2026-05-10 19:06:28] SUCCESS: Inserted TWD
+[2026-05-10 19:06:28] --- Sync Finished ---
+
+[2026-05-10 19:07:28] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-10 19:07:30] Connected to Salesforce successfully via OAuth.
+[2026-05-10 19:45:03] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-10 19:45:05] Connected to Salesforce successfully via OAuth.
+[2026-05-10 19:45:29] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 07:06 PM IST).
+[2026-05-11 10:26:07] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-11 10:26:09] Connected to Salesforce successfully via OAuth.
+[2026-05-11 10:26:11] No records found for 2026-05-11. Proceeding automatically...
+[2026-05-11 10:26:11] Sending 23 updates via Composite API...
+[2026-05-11 10:26:14] SUCCESS: All CurrencyType updates completed.
+[2026-05-11 10:26:14] Sending 23 DatedConversionRate inserts...
+[2026-05-11 10:26:31] SUCCESS: Inserted AUD
+[2026-05-11 10:26:31] SUCCESS: Inserted BND
+[2026-05-11 10:26:31] SUCCESS: Inserted CAD
+[2026-05-11 10:26:31] SUCCESS: Inserted CHF
+[2026-05-11 10:26:31] SUCCESS: Inserted CLP
+[2026-05-11 10:26:31] SUCCESS: Inserted CNY
+[2026-05-11 10:26:31] SUCCESS: Inserted CZK
+[2026-05-11 10:26:31] SUCCESS: Inserted DKK
+[2026-05-11 10:26:31] SUCCESS: Inserted EUR
+[2026-05-11 10:26:31] SUCCESS: Inserted GBP
+[2026-05-11 10:26:31] SUCCESS: Inserted HKD
+[2026-05-11 10:26:31] SUCCESS: Inserted INR
+[2026-05-11 10:26:31] SUCCESS: Inserted LKR
+[2026-05-11 10:26:31] SUCCESS: Inserted MOP
+[2026-05-11 10:26:31] SUCCESS: Inserted MVR
+[2026-05-11 10:26:31] SUCCESS: Inserted MXN
+[2026-05-11 10:26:31] SUCCESS: Inserted MYR
+[2026-05-11 10:26:31] SUCCESS: Inserted NOK
+[2026-05-11 10:26:31] SUCCESS: Inserted PHP
+[2026-05-11 10:26:31] SUCCESS: Inserted PLN
+[2026-05-11 10:26:31] SUCCESS: Inserted SEK
+[2026-05-11 10:26:31] SUCCESS: Inserted SGD
+[2026-05-11 10:26:31] SUCCESS: Inserted TWD
+[2026-05-11 10:26:31] --- Sync Finished ---
+
+[2026-05-11 13:20:27] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-11 13:20:28] Connected to Salesforce successfully via OAuth.
+[2026-05-11 15:19:39] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-11 15:19:41] Connected to Salesforce successfully via OAuth.
+[2026-05-11 15:23:15] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-11 15:23:17] Connected to Salesforce successfully via OAuth.
+[2026-05-11 15:23:19] No records found for 2026-05-11. Proceeding automatically...
+[2026-05-11 15:23:19] Sending 23 updates via Composite API...
+[2026-05-11 15:23:20] SUCCESS: All CurrencyType updates completed.
+[2026-05-11 15:23:20] Sending 23 DatedConversionRate inserts...
+[2026-05-11 15:23:37] SUCCESS: Inserted AUD
+[2026-05-11 15:23:37] SUCCESS: Inserted BND
+[2026-05-11 15:23:37] SUCCESS: Inserted CAD
+[2026-05-11 15:23:37] SUCCESS: Inserted CHF
+[2026-05-11 15:23:37] SUCCESS: Inserted CLP
+[2026-05-11 15:23:37] SUCCESS: Inserted CNY
+[2026-05-11 15:23:37] SUCCESS: Inserted CZK
+[2026-05-11 15:23:37] SUCCESS: Inserted DKK
+[2026-05-11 15:23:37] SUCCESS: Inserted EUR
+[2026-05-11 15:23:37] SUCCESS: Inserted GBP
+[2026-05-11 15:23:37] SUCCESS: Inserted HKD
+[2026-05-11 15:23:37] SUCCESS: Inserted INR
+[2026-05-11 15:23:37] SUCCESS: Inserted LKR
+[2026-05-11 15:23:37] SUCCESS: Inserted MOP
+[2026-05-11 15:23:37] SUCCESS: Inserted MVR
+[2026-05-11 15:23:37] SUCCESS: Inserted MXN
+[2026-05-11 15:23:37] SUCCESS: Inserted MYR
+[2026-05-11 15:23:37] SUCCESS: Inserted NOK
+[2026-05-11 15:23:37] SUCCESS: Inserted PHP
+[2026-05-11 15:23:37] SUCCESS: Inserted PLN
+[2026-05-11 15:23:37] SUCCESS: Inserted SEK
+[2026-05-11 15:23:37] SUCCESS: Inserted SGD
+[2026-05-11 15:23:37] SUCCESS: Inserted TWD
+[2026-05-11 15:23:37] --- Sync Finished ---
+
+[2026-05-11 19:52:58] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-11 19:53:00] Connected to Salesforce successfully via OAuth.
+[2026-05-12 10:15:21] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-12 10:15:23] Connected to Salesforce successfully via OAuth.
+[2026-05-12 10:15:26] No records found for 2026-05-12. Proceeding automatically...
+[2026-05-12 10:15:26] Sending 23 updates via Composite API...
+[2026-05-12 10:15:30] SUCCESS: All CurrencyType updates completed.
+[2026-05-12 10:15:30] Sending 23 DatedConversionRate inserts...
+[2026-05-12 10:15:46] SUCCESS: Inserted AUD
+[2026-05-12 10:15:46] SUCCESS: Inserted BND
+[2026-05-12 10:15:46] SUCCESS: Inserted CAD
+[2026-05-12 10:15:46] SUCCESS: Inserted CHF
+[2026-05-12 10:15:46] SUCCESS: Inserted CLP
+[2026-05-12 10:15:46] SUCCESS: Inserted CNY
+[2026-05-12 10:15:46] SUCCESS: Inserted CZK
+[2026-05-12 10:15:46] SUCCESS: Inserted DKK
+[2026-05-12 10:15:46] SUCCESS: Inserted EUR
+[2026-05-12 10:15:46] SUCCESS: Inserted GBP
+[2026-05-12 10:15:46] SUCCESS: Inserted HKD
+[2026-05-12 10:15:46] SUCCESS: Inserted INR
+[2026-05-12 10:15:46] SUCCESS: Inserted LKR
+[2026-05-12 10:15:46] SUCCESS: Inserted MOP
+[2026-05-12 10:15:46] SUCCESS: Inserted MVR
+[2026-05-12 10:15:46] SUCCESS: Inserted MXN
+[2026-05-12 10:15:46] SUCCESS: Inserted MYR
+[2026-05-12 10:15:46] SUCCESS: Inserted NOK
+[2026-05-12 10:15:46] SUCCESS: Inserted PHP
+[2026-05-12 10:15:46] SUCCESS: Inserted PLN
+[2026-05-12 10:15:46] SUCCESS: Inserted SEK
+[2026-05-12 10:15:46] SUCCESS: Inserted SGD
+[2026-05-12 10:15:46] SUCCESS: Inserted TWD
+[2026-05-12 10:15:46] --- Sync Finished ---
+
+[2026-05-12 11:06:16] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-12 11:06:18] Connected to Salesforce successfully via OAuth.
+[2026-05-12 11:06:31] User chose to overwrite. Deleting 23 existing records from 10:54 AM...
+[2026-05-12 11:06:46] Existing records deleted. Proceeding with fresh sync...
+[2026-05-12 11:06:46] Sending 23 updates via Composite API...
+[2026-05-12 11:06:49] SUCCESS: All CurrencyType updates completed.
+[2026-05-12 11:06:49] Sending 23 DatedConversionRate inserts...
+[2026-05-12 11:07:04] SUCCESS: Inserted AUD
+[2026-05-12 11:07:04] SUCCESS: Inserted BND
+[2026-05-12 11:07:04] SUCCESS: Inserted CAD
+[2026-05-12 11:07:04] SUCCESS: Inserted CHF
+[2026-05-12 11:07:04] SUCCESS: Inserted CLP
+[2026-05-12 11:07:04] SUCCESS: Inserted CNY
+[2026-05-12 11:07:04] SUCCESS: Inserted CZK
+[2026-05-12 11:07:04] SUCCESS: Inserted DKK
+[2026-05-12 11:07:04] SUCCESS: Inserted EUR
+[2026-05-12 11:07:04] SUCCESS: Inserted GBP
+[2026-05-12 11:07:04] SUCCESS: Inserted HKD
+[2026-05-12 11:07:04] SUCCESS: Inserted INR
+[2026-05-12 11:07:04] SUCCESS: Inserted LKR
+[2026-05-12 11:07:04] SUCCESS: Inserted MOP
+[2026-05-12 11:07:04] SUCCESS: Inserted MVR
+[2026-05-12 11:07:04] SUCCESS: Inserted MXN
+[2026-05-12 11:07:04] SUCCESS: Inserted MYR
+[2026-05-12 11:07:04] SUCCESS: Inserted NOK
+[2026-05-12 11:07:04] SUCCESS: Inserted PHP
+[2026-05-12 11:07:04] SUCCESS: Inserted PLN
+[2026-05-12 11:07:04] SUCCESS: Inserted SEK
+[2026-05-12 11:07:04] SUCCESS: Inserted SGD
+[2026-05-12 11:07:04] SUCCESS: Inserted TWD
+[2026-05-12 11:07:04] --- Sync Finished ---
+
+[2026-05-12 12:59:56] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-12 12:59:57] Connected to Salesforce successfully via OAuth.
+[2026-05-12 13:22:17] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 11:15 AM IST).
+[2026-05-12 13:55:59] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-12 13:56:00] Connected to Salesforce successfully via OAuth.
+[2026-05-12 13:56:36] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 11:15 AM IST).
+[2026-05-12 15:40:16] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-12 15:40:18] Connected to Salesforce successfully via OAuth.
+[2026-05-13 10:36:28] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-13 10:36:30] Connected to Salesforce successfully via OAuth.
+[2026-05-13 11:30:48] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 10:25 AM IST).
+[2026-05-13 15:51:56] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-13 15:51:58] Connected to Salesforce successfully via OAuth.
+[2026-05-13 15:55:23] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 10:25 AM IST).
+[2026-05-14 11:08:26] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-14 11:08:28] Connected to Salesforce successfully via OAuth.
+[2026-05-14 16:00:04] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-14 16:00:06] Connected to Salesforce successfully via OAuth.
+[2026-05-14 16:01:22] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 10:17 AM IST).
+[2026-05-14 18:36:48] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-14 18:36:49] Connected to Salesforce successfully via OAuth.
+[2026-05-15 11:04:46] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-15 11:04:48] Connected to Salesforce successfully via OAuth.
+[2026-05-15 11:09:40] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 10:46 AM IST).
+[2026-05-15 13:30:06] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-15 13:30:07] Connected to Salesforce successfully via OAuth.
+[2026-05-15 13:30:31] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 10:46 AM IST).
+[2026-05-15 16:13:18] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-15 16:13:19] Connected to Salesforce successfully via OAuth.
+[2026-05-15 18:09:32] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 10:46 AM IST).
+[2026-05-16 14:01:28] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-16 14:01:30] Connected to Salesforce successfully via OAuth.
+[2026-05-16 14:01:31] No records found for 2026-05-16. Proceeding automatically...
+[2026-05-16 14:01:31] Sending 23 updates via Composite API...
+[2026-05-16 14:01:35] SUCCESS: All CurrencyType updates completed.
+[2026-05-16 14:01:35] Sending 23 DatedConversionRate inserts...
+[2026-05-16 14:01:49] SUCCESS: Inserted AUD
+[2026-05-16 14:01:49] SUCCESS: Inserted BND
+[2026-05-16 14:01:49] SUCCESS: Inserted CAD
+[2026-05-16 14:01:49] SUCCESS: Inserted CHF
+[2026-05-16 14:01:49] SUCCESS: Inserted CLP
+[2026-05-16 14:01:49] SUCCESS: Inserted CNY
+[2026-05-16 14:01:49] SUCCESS: Inserted CZK
+[2026-05-16 14:01:49] SUCCESS: Inserted DKK
+[2026-05-16 14:01:49] SUCCESS: Inserted EUR
+[2026-05-16 14:01:49] SUCCESS: Inserted GBP
+[2026-05-16 14:01:49] SUCCESS: Inserted HKD
+[2026-05-16 14:01:49] SUCCESS: Inserted INR
+[2026-05-16 14:01:49] SUCCESS: Inserted LKR
+[2026-05-16 14:01:49] SUCCESS: Inserted MOP
+[2026-05-16 14:01:49] SUCCESS: Inserted MVR
+[2026-05-16 14:01:49] SUCCESS: Inserted MXN
+[2026-05-16 14:01:49] SUCCESS: Inserted MYR
+[2026-05-16 14:01:49] SUCCESS: Inserted NOK
+[2026-05-16 14:01:49] SUCCESS: Inserted PHP
+[2026-05-16 14:01:49] SUCCESS: Inserted PLN
+[2026-05-16 14:01:49] SUCCESS: Inserted SEK
+[2026-05-16 14:01:49] SUCCESS: Inserted SGD
+[2026-05-16 14:01:49] SUCCESS: Inserted TWD
+[2026-05-16 14:01:49] --- Sync Finished ---
+
+[2026-05-18 10:48:58] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-18 10:49:00] Connected to Salesforce successfully via OAuth.
+[2026-05-18 10:49:00] No records found for 2026-05-18. Proceeding automatically...
+[2026-05-18 10:49:00] Sending 23 updates via Composite API...
+[2026-05-18 10:49:04] SUCCESS: All CurrencyType updates completed.
+[2026-05-18 10:49:04] Sending 23 DatedConversionRate inserts...
+[2026-05-18 10:49:18] SUCCESS: Inserted AUD
+[2026-05-18 10:49:18] SUCCESS: Inserted BND
+[2026-05-18 10:49:18] SUCCESS: Inserted CAD
+[2026-05-18 10:49:18] SUCCESS: Inserted CHF
+[2026-05-18 10:49:18] SUCCESS: Inserted CLP
+[2026-05-18 10:49:18] SUCCESS: Inserted CNY
+[2026-05-18 10:49:18] SUCCESS: Inserted CZK
+[2026-05-18 10:49:18] SUCCESS: Inserted DKK
+[2026-05-18 10:49:18] SUCCESS: Inserted EUR
+[2026-05-18 10:49:18] SUCCESS: Inserted GBP
+[2026-05-18 10:49:18] SUCCESS: Inserted HKD
+[2026-05-18 10:49:18] SUCCESS: Inserted INR
+[2026-05-18 10:49:18] SUCCESS: Inserted LKR
+[2026-05-18 10:49:18] SUCCESS: Inserted MOP
+[2026-05-18 10:49:18] SUCCESS: Inserted MVR
+[2026-05-18 10:49:18] SUCCESS: Inserted MXN
+[2026-05-18 10:49:18] SUCCESS: Inserted MYR
+[2026-05-18 10:49:18] SUCCESS: Inserted NOK
+[2026-05-18 10:49:18] SUCCESS: Inserted PHP
+[2026-05-18 10:49:18] SUCCESS: Inserted PLN
+[2026-05-18 10:49:18] SUCCESS: Inserted SEK
+[2026-05-18 10:49:18] SUCCESS: Inserted SGD
+[2026-05-18 10:49:18] SUCCESS: Inserted TWD
+[2026-05-18 10:49:18] --- Sync Finished ---
+
+[2026-05-18 12:47:43] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-18 12:47:45] Connected to Salesforce successfully via OAuth.
+[2026-05-18 12:56:19] User cancelled sync: Records already exist for today (Created by SFDC TE Integration User at 10:49 AM IST).
+[2026-05-18 13:48:40] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-18 13:48:41] Connected to Salesforce successfully via OAuth.
+[2026-05-19 10:08:10] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-19 10:08:12] Connected to Salesforce successfully via OAuth.
+[2026-05-19 10:08:13] No records found for 2026-05-19. Proceeding automatically...
+[2026-05-19 10:08:13] Sending 23 updates via Composite API...
+[2026-05-19 10:08:17] SUCCESS: All CurrencyType updates completed.
+[2026-05-19 10:08:17] Sending 23 DatedConversionRate inserts...
+[2026-05-19 10:08:31] SUCCESS: Inserted AUD
+[2026-05-19 10:08:31] SUCCESS: Inserted BND
+[2026-05-19 10:08:31] SUCCESS: Inserted CAD
+[2026-05-19 10:08:31] SUCCESS: Inserted CHF
+[2026-05-19 10:08:31] SUCCESS: Inserted CLP
+[2026-05-19 10:08:31] SUCCESS: Inserted CNY
+[2026-05-19 10:08:31] SUCCESS: Inserted CZK
+[2026-05-19 10:08:31] SUCCESS: Inserted DKK
+[2026-05-19 10:08:31] SUCCESS: Inserted EUR
+[2026-05-19 10:08:31] SUCCESS: Inserted GBP
+[2026-05-19 10:08:31] SUCCESS: Inserted HKD
+[2026-05-19 10:08:31] SUCCESS: Inserted INR
+[2026-05-19 10:08:31] SUCCESS: Inserted LKR
+[2026-05-19 10:08:31] SUCCESS: Inserted MOP
+[2026-05-19 10:08:31] SUCCESS: Inserted MVR
+[2026-05-19 10:08:31] SUCCESS: Inserted MXN
+[2026-05-19 10:08:31] SUCCESS: Inserted MYR
+[2026-05-19 10:08:31] SUCCESS: Inserted NOK
+[2026-05-19 10:08:31] SUCCESS: Inserted PHP
+[2026-05-19 10:08:31] SUCCESS: Inserted PLN
+[2026-05-19 10:08:31] SUCCESS: Inserted SEK
+[2026-05-19 10:08:31] SUCCESS: Inserted SGD
+[2026-05-19 10:08:31] SUCCESS: Inserted TWD
+[2026-05-19 10:08:31] --- Sync Finished ---
+
+[2026-05-19 10:45:02] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-19 10:45:04] Connected to Salesforce successfully via OAuth.
+[2026-05-19 10:50:32] --- Starting Salesforce Composite Sync (API v64.0) ---
+[2026-05-19 10:50:34] Connected to Salesforce successfully via OAuth.

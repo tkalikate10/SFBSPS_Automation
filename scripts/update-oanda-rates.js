@@ -5,7 +5,7 @@ const { chromium } = require('playwright');
 const DEFAULT_OUTPUT = path.join(
   __dirname,
   '..',
-  'BSPS AUtoamtion',
+  'SFPS Automation',
   'TE access and activities - currencyUpdate - TE access and activities - currencyUpdate.csv'
 );
 

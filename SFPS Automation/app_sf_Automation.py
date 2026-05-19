@@ -12,7 +12,6 @@ load_dotenv(dotenv_path=env_path)
 USERNAME = os.getenv('SF_USERNAME')
 PASSWORD = os.getenv('SF_PASSWORD')
 TOKEN = os.getenv('SF_TOKEN')
-# Add these to your .env file after creating a Connected App
 CONSUMER_KEY = os.getenv('SF_CONSUMER_KEY')
 CONSUMER_SECRET = os.getenv('SF_CONSUMER_SECRET')
 
@@ -31,13 +30,21 @@ def write_log(message):
     print(message)
 
 def run_sync():
+    # --- TIME WINDOW CHECK (10 AM to 5 PM IST) ---
+    now = datetime.now()
+    current_hour = now.hour
+    
+    # 10 is 10 AM, 17 is 5 PM. Logic: Proceed only if hour is >= 10 AND < 17
+    if not (10 <= current_hour < 20):
+        print(f"Skipping sync: Current time ({now.strftime('%I:%M %p')}) is outside allowed window (10 AM - 5 PM IST).")
+        return
+
     write_log(f"--- Starting Salesforce Composite Sync (API v{SF_VERSION}) ---")
 
     # --- STEP 0: CONNECT VIA OAUTH ---
     try:
-        # Using consumer_key/secret moves the login from legacy SOAP to OAuth2 Username-Password flow
         sf = Salesforce(
-            domain='test', 
+            domain='login', 
             username=USERNAME, 
             password=PASSWORD, 
             security_token=TOKEN,
@@ -53,22 +60,32 @@ def run_sync():
     # --- STEP 1: CHECK FOR EXISTING RECORDS FOR TODAY ---
     try:
         today_str = datetime.now().strftime('%Y-%m-%d')
-        query = f"SELECT CreatedBy.Name FROM DatedConversionRate WHERE StartDate = {today_str} LIMIT 1"
+        query = f"SELECT Id, CreatedBy.Name, CreatedDate FROM DatedConversionRate WHERE StartDate = {today_str}"
         result = sf.query(query)
 
         if result['totalSize'] > 0:
-            creator_name = result['records'][0]['CreatedBy']['Name']
-            confirm = input(f"\nLooks like currency update already done by {creator_name} for today, would you still like to continue? (yes/no): ").strip().lower()
+            first_record = result['records'][0]
+            creator_name = first_record['CreatedBy']['Name']
             
-            if confirm != 'yes':
-                write_log(f"User cancelled sync: Records already exist for today (Created by {creator_name}).")
+            utc_time = pd.to_datetime(first_record['CreatedDate'])
+            ist_time = utc_time.tz_convert('Asia/Kolkata').strftime('%I:%M %p')
+            
+            confirm = input(f"\nLooks like currency update already done by {creator_name} at {ist_time} IST for today, would you still like to continue? (yes/no): ").strip().lower()
+            
+            if confirm == 'yes':
+                write_log(f"User chose to overwrite. Deleting {result['totalSize']} existing records from {ist_time}...")
+                ids_to_delete = [{'Id': r['Id']} for r in result['records']]
+                sf.bulk.DatedConversionRate.delete(ids_to_delete)
+                write_log("Existing records deleted. Proceeding with fresh sync...")
+            else:
+                write_log(f"User cancelled sync: Records already exist for today (Created by {creator_name} at {ist_time} IST).")
                 input("\nPress Enter to close...")
                 return
         else:
             write_log(f"No records found for {today_str}. Proceeding automatically...")
 
     except Exception as e:
-        write_log(f"WARNING: Could not check for existing records: {e}")
+        write_log(f"WARNING: Could not check/clean existing records: {e}")
         confirm = input("Proceed anyway? (yes/no): ").strip().lower()
         if confirm != 'yes': return
 
@@ -79,6 +96,7 @@ def run_sync():
             return
 
         df = pd.read_csv(MASTER_FILE, encoding='unicode_escape')
+        
         composite_requests = []
         dated_inserts = []
 
@@ -102,8 +120,6 @@ def run_sync():
         if composite_requests:
             write_log(f"Sending {len(composite_requests)} updates via Composite API...")
             data = {"allOrNone": True, "compositeRequest": composite_requests}
-            
-            # Using sf.session directly to ensure compatibility with all versions of simple-salesforce
             url = f"https://{sf.sf_instance}/services/data/v{SF_VERSION}/composite"
             response_raw = sf.session.post(url, json=data, headers=sf.headers)
             
@@ -114,18 +130,15 @@ def run_sync():
                     if sub_res['httpStatusCode'] >= 400:
                         write_log(f"ERROR on {sub_res['referenceId']}: {sub_res['body']}")
                         has_error = True
-                
                 if not has_error:
-                    write_log("SUCCESS: All CurrencyType updates completed in one transaction.")
+                    write_log("SUCCESS: All CurrencyType updates completed.")
             else:
                 write_log(f"COMPOSITE HTTP ERROR: {response_raw.status_code} - {response_raw.text}")
 
         # --- STEP 4: BULK INSERT ---
         if dated_inserts:
             write_log(f"Sending {len(dated_inserts)} DatedConversionRate inserts...")
-            # Use .insert() for Bulk API stability
             results = sf.bulk.DatedConversionRate.insert(dated_inserts)
-            
             for i, res in enumerate(results):
                 if res['success']:
                     write_log(f"SUCCESS: Inserted {dated_inserts[i]['IsoCode']}")

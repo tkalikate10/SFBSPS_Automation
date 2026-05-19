@@ -1,6 +1,6 @@
 param(
-    [string]$ProjectPath = "C:\BSPS",
-    [string]$LogDirectory = "C:\BSPS\logs"
+    [string]$ProjectPath = "C:\SFPS",
+    [string]$LogDirectory = "C:\SFPS\logs"
 )
 
 $ErrorActionPreference = "Stop"
